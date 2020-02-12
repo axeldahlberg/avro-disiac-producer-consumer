@@ -1,0 +1,15 @@
+{
+  "type":"record",
+  "namespace":"com.axel.se",
+  "name": "Customer",
+  "version":"1",
+  "fields": [
+    {"name":"first_name","type":"string","doc":"First name"},
+    {"name":"last_name","type":"string","doc":"Last name"},
+    {"name":"age","type":"int","doc":"age int"},
+    {"name":"height","type":"float","doc":"height int cm 182.0 or 182F"},
+    {"name":"weight","type":"float","doc":"weight in kg 82F or 82.0"},
+    {"name":"automated_email","type":"boolean","doc":"default true = wants email information","default":true}
+  ]
+}
+
