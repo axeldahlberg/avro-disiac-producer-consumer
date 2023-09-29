@@ -12,7 +12,7 @@
   <artifactId>produce-consume-v1</artifactId>
 
   <properties>
-    <avro.version>1.9.1</avro.version>
+    <avro.version>1.11.3</avro.version>
     <kafka.version>2.4.0</kafka.version>
     <confluent.version>5.3.0</confluent.version>
   </properties>
